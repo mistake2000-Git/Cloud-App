@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index",
+    "start": "node index.js",
     "frontend": "cd ../react-final && npm start",
     "dev": "concurrently \"npm start\" \"npm run frontend\"",
     "genAPIDoc": "apidoc -i routes -o Public/docs/"
